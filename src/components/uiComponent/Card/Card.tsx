@@ -6,6 +6,14 @@ interface BenefitCardProps {
   description: string;
 }
 
+interface CardProps {
+  benefitsData: {
+    icon: React.ReactNode;
+    title: string;
+    description: string;
+  }[];
+}
+
 const BenefitCard: React.FC<BenefitCardProps> = ({
   icon,
   title,
@@ -20,7 +28,7 @@ const BenefitCard: React.FC<BenefitCardProps> = ({
   );
 };
 
-export function CardDemo({ benefitsData: [...benefitsData] }: CardProps) {
+export function CardDemo({ benefitsData }: CardProps) {
   return (
     <div>
       <div className={styles["card-container"]}>
