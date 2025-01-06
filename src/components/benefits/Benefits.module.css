@@ -1,0 +1,53 @@
+.benefits-section {
+  padding: 4rem 0;
+  background-color: var(--background);
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.benefits-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--purple);
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.carousel-item {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.carousel-item:hover {
+  transform: scale(1.05);
+}
+
+.carousel-icon {
+  color: var(--purple);
+  margin-bottom: 1rem;
+}
+
+.carousel-title {
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.carousel-description {
+  font-size: 1rem;
+  color: var(--white);
+  opacity: 0.8;
+}
