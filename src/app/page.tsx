@@ -4,6 +4,7 @@ import { Benefits } from "@/components/benefits/Benefits";
 import { Gallery } from "@/components/Gallery/Gallery";
 import Footer from "@/components/footer/Footer";
 import { Services } from "@/components/services/Services";
+import Guarantees from "@/components/Guarantees/Guarantees";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Benefits />
       <Gallery />
       <Services />
+      <Guarantees />
       <Footer />
     </>
   );

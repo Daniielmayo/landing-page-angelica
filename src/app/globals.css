@@ -50,10 +50,16 @@
   --darkGray: #707070;
   --darkGrayGradient: #707070a2;
   --red: #f44336;
+  --blue:#1A3B5D;
+  --brown:#5B4B49;
   
   /* Others */
   --border: solid 0.02rem;
   --borderRadius: 0.8rem;
   --transition: 500ms;
   --transform: scale(1.05);
+}
+body{
+  background-color: #f1e4d942;
+  /* background-color: ; */
 }
